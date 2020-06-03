@@ -1,0 +1,30 @@
+body{
+	padding: 0;
+	margin: 0
+}
+nav{
+	background-color: black;
+	text-align: right;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+.header{
+	text-align: center;
+}
+	
+
+.box{
+float: left;
+width: 25%;
+padding: 10px;
+height: 100px;
+margin: 30px;
+background-color: black;
+}
+.box:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
