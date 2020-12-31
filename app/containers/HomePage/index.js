@@ -6,13 +6,17 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
-
+import HomeSection from '../../components/Homesection';
+import Certs from '../../components/Certs';
+import Background from '../../components/BackGround';
+import WhoToBe from '../../components/WhoToBe';
 export default function HomePage() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+    <div>
+      <HomeSection />
+      <Certs />
+      <WhoToBe />
+      <Background />
+    </div>
   );
 }

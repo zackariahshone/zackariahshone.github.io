@@ -1,0 +1,13 @@
+.background{
+    height: 100vh;
+    background-color: rgb(3, 6, 49);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+
+.bgTitle{
+    text-align: right;
+    color: white;
+}

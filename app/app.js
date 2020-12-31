@@ -15,7 +15,7 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import history from 'utils/history';
 import 'sanitize.css/sanitize.css';
-
+import { ParallaxProvider } from 'react-scroll-parallax';
 // Import root app
 import App from 'containers/App';
 
@@ -32,7 +32,7 @@ import configureStore from './configureStore';
 
 // Import i18n messages
 import { translationMessages } from './i18n';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Create redux store with history
 const initialState = {};
 const store = configureStore(initialState, history);
@@ -43,7 +43,9 @@ const render = messages => {
     <Provider store={store}>
       <LanguageProvider messages={messages}>
         <ConnectedRouter history={history}>
-          <App />
+          <ParallaxProvider>
+            <App />
+          </ParallaxProvider>
         </ConnectedRouter>
       </LanguageProvider>
     </Provider>,

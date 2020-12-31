@@ -1,0 +1,60 @@
+.component{
+    height: 100vh;
+}
+
+.home{
+    background-image: url('../../images/homeBG.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+      
+}
+.titleBox{
+    background-image: url('../../images/name_container.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    width:50%;
+    position: absolute;
+    left: 25%;
+    top: 50px;
+    
+}
+
+.titleBox2{
+    background-image: url('../../images/name_container.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    width:50%; 
+}
+.title{
+    text-align: center;
+    color: white;
+
+}
+.desc-container{
+    /* margin:auto ; */
+    /* margin-left: 10%;  */
+    height: auto;
+    /* border-style: solid; */
+    /* border-color: white; */
+    width: 80%;
+    position: absolute;
+    left: 9%;
+    bottom: 10px;
+
+}
+.desc-left{
+    text-align: left;
+    color: white;
+}
+.desc-right{
+    text-align: right;
+    color: white;
+}

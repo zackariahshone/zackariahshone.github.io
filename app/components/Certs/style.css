@@ -1,0 +1,27 @@
+
+/* font-family: 'Inconsolata', monospace;
+ */
+.Certs{
+    height: inherit;
+    /* z-index: 3; */
+    background-image: url('../../images/secondSection.png');
+    background-blend-mode: color-burn;
+    background-color: rgb(64, 11, 124);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    font-family: 'Inconsolata', monospace;
+
+}
+.certsContainer{
+    padding-top: 10%;
+}
+.certTitle{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    position: relative;
+    top: 50%;
+}
+.card{
+    margin-bottom: 10%;
+}
