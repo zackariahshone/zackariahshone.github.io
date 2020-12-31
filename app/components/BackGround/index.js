@@ -14,7 +14,7 @@ import Container from 'react-bootstrap/Container';
 
 function BackGround() {
   return (
-    <div className="background">
+    <div className="background" id="section4">
       <Container>
         <div className="bgTitle">
           <h1>BackGround: </h1>

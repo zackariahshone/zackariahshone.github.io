@@ -15,7 +15,7 @@ import './style.css';
 
 function Homesection() {
   return (
-    <div className="component home">
+    <div className="component home" id="section1">
       <div className="titleBox">
         <div className="title">
           <h1>Zackariah Shone</h1>
@@ -39,9 +39,7 @@ function Homesection() {
                 technologies and front end interfaces
               </h3>
             </div>
-            <div className="desc-right">
-              {/* <h3>Let's go on the journey together!</h3> */}
-            </div>
+            <div className="desc-right" />
           </div>
         </Row>
       </Container>

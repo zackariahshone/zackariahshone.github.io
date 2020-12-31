@@ -10,9 +10,11 @@ import HomeSection from '../../components/Homesection';
 import Certs from '../../components/Certs';
 import Background from '../../components/BackGround';
 import WhoToBe from '../../components/WhoToBe';
+import Nav from '../../components/NavScroll';
 export default function HomePage() {
   return (
     <div>
+      <Nav />
       <HomeSection />
       <Certs />
       <WhoToBe />

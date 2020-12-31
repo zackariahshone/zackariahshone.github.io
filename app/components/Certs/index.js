@@ -17,7 +17,7 @@ import Cert1 from '../../images/certificate-one.jpg';
 import Cert2 from '../../images/certificate-two.jpg';
 function Certs() {
   return (
-    <div className="components Certs">
+    <div className="components Certs" id="section2">
       <Container>
         <Row>
           <Col>

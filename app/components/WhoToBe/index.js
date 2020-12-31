@@ -10,7 +10,7 @@ import './style.css';
 // import styled from 'styled-components';
 
 function WhoToBe() {
-  return <div className="whotobe" />;
+  return <div className="whotobe" id="section3" />;
 }
 
 WhoToBe.propTypes = {};
