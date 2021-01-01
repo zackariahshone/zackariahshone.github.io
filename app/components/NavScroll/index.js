@@ -34,7 +34,7 @@ function NavScroll() {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section2"
+                to="section4"
                 spy
                 smooth
                 offset={0}
@@ -58,7 +58,7 @@ function NavScroll() {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section4"
+                to="section2"
                 spy
                 smooth
                 offset={0}
