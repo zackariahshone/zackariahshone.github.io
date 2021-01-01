@@ -37,3 +37,9 @@
     }    
     
 }
+@media only screen and (max-width: 400px){
+    .Certs{
+        background-color: rgb(8, 6, 32);
+    }    
+    
+}
