@@ -23,7 +23,7 @@ function Homesection() {
           <h3>
             <Typical
               steps={[
-                'Im a full stack dev',
+                'I am a full stack developer!',
                 1000,
                 'from back',
                 500,
