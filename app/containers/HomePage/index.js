@@ -16,9 +16,9 @@ export default function HomePage() {
     <div>
       <Nav />
       <HomeSection />
-      <Certs />
-      <WhoToBe />
       <Background />
+      <WhoToBe />
+      <Certs />
     </div>
   );
 }

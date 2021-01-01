@@ -1,18 +1,21 @@
 .background{
-    height: 100vh;
-    background-color: rgb(3, 6, 49);
+    height: auto;
+    /* z-index: 3; */
+    background-image: url('../../images/secondSection.png');
+    background-blend-mode: color-burn;
+    background-color: rgb(64, 11, 124);
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
     font-family: 'Inconsolata', monospace;
-    color: white;
 }
 
 .bgTitle{
     text-align: left;
     color: white;
-    margin-bottom: 40%;
+    margin-bottom: 5%;
 }
 .carousel-caption{
     position: static;
-    margin-top: 10%;
+    margin-top: 5%;
 }
