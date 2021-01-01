@@ -25,17 +25,17 @@ function Projects() {
       <Container>
         <Row>
           <Col>
-            <Parallax y={[200, -100]}>
+            <Parallax y={[400, 100]}>
               <div className="boxOne" />
             </Parallax>
           </Col>
           <Col>
-            <Parallax y={[200, 200]}>
+            <Parallax y={[200, 350]}>
               <div className="boxTwo" />
             </Parallax>
           </Col>
           <Col>
-            <Parallax y={[200, -50]}>
+            <Parallax y={[300, -50]}>
               <div className="boxThree" />
             </Parallax>
           </Col>
