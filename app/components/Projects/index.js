@@ -1,6 +1,6 @@
 /**
  *
- * WhoToBe
+ * Projects
  *
  */
 
@@ -25,17 +25,17 @@ function Projects() {
       <Container>
         <Row>
           <Col>
-            <Parallax y={[30, 20]}>
+            <Parallax y={[200, -100]}>
               <div className="boxOne" />
             </Parallax>
           </Col>
           <Col>
-            <Parallax y={[30, 40]}>
+            <Parallax y={[200, 200]}>
               <div className="boxTwo" />
             </Parallax>
           </Col>
           <Col>
-            <Parallax y={[30, 60]}>
+            <Parallax y={[200, -50]}>
               <div className="boxThree" />
             </Parallax>
           </Col>
