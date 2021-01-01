@@ -54,4 +54,29 @@
     margin: 0 auto;
     padding: 40px;
   }
+  @media only screen and (max-width: 600px){
+    .nav {
+      position: fixed;
+      top: 50%;
+      left: 63%;
+      width: 1px;
+      height: 80px;
+      z-index: 1000;
+      color:white;
+      /* box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15); */
+    }
+  }
+
+  @media only screen and (max-width: 400px){
+    .nav {
+      position: fixed;
+      top: 50%;
+      left: 63%;
+      width: 1px;
+      height: 80px;
+      z-index: 1000;
+      color:white;
+      /* box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15); */
+    }
+  }
   
