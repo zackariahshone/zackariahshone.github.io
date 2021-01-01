@@ -6,8 +6,9 @@ var __wpo = {
       "/7acb8e5f7af103ff281e7473776a8614.png",
       "/09f2967ee00f4a14966d52d33c2631ca.png",
       "/e71dab49339121854ef41e0527c95ecf.jpg",
+      "/b5f469851ca938b1985912dbb58733c7.png",
       "/favicon.ico",
-      "/runtime.0e58b51addf10bed87bb.js",
+      "/runtime.75b4cd8989d106216295.js",
       "/"
     ],
     "additional": [
@@ -25,7 +26,7 @@ var __wpo = {
       "/npm.react-redux.97e3c68cf48d6bcfd845.chunk.js",
       "/npm.react-scroll-parallax.7c36f531faeb1c96d6c8.chunk.js",
       "/npm.redux-saga.41dc88093c5f2fa6ee92.chunk.js",
-      "/15.bb6784d0caf29753ced5.chunk.js",
+      "/15.2a144b7ef914090de810.chunk.js",
       "/16.8e654ad7d82140fdcf3a.chunk.js"
     ],
     "optional": []
@@ -37,6 +38,7 @@ var __wpo = {
     "8db775ede63a42d12f34d7afba63cf6904cf69d6": "/7acb8e5f7af103ff281e7473776a8614.png",
     "e0ee7415f3556b61c62f187fa23109bca43b2205": "/09f2967ee00f4a14966d52d33c2631ca.png",
     "dafb39d58c6f0de7a48469f878424406c32bacdd": "/e71dab49339121854ef41e0527c95ecf.jpg",
+    "589d7dd3e8cdfd4fe45aa4391504eadcad225d0d": "/b5f469851ca938b1985912dbb58733c7.png",
     "5e53ef208f3fa79a48f8374488f473c76e1233de": "/favicon.ico",
     "c03bec85b2cfe7b95e0271ec80f9b8c3aa1c178c": "/npm.css-loader.4c779c215e67c09504ed.chunk.js",
     "843b345a86371700f448f683add3b8388801722b": "/npm.intl.81c989388643e1016a22.chunk.js",
@@ -52,14 +54,14 @@ var __wpo = {
     "d27c354c2ca913e524522a13da2fa78143a83e4c": "/npm.react-redux.97e3c68cf48d6bcfd845.chunk.js",
     "bbe207ba371621fc7c3f22c781e30d3ba93e5b49": "/npm.react-scroll-parallax.7c36f531faeb1c96d6c8.chunk.js",
     "5af9a08af0c99527d10ebdc8bb9efcd25b0c8761": "/npm.redux-saga.41dc88093c5f2fa6ee92.chunk.js",
-    "b9fa5ce95fa3fc9bef5056403d1038c473a82679": "/runtime.0e58b51addf10bed87bb.js",
-    "93d4218c0572cc2e2c95defd554e22d66c7c7697": "/15.bb6784d0caf29753ced5.chunk.js",
+    "4455391fe938de292582c584de01634ad3763dc1": "/runtime.75b4cd8989d106216295.js",
+    "ae7c34d4a51cd8701d7ef8ba2b88fa9984c97951": "/15.2a144b7ef914090de810.chunk.js",
     "92685836f306abe727791678de887b69dab75d30": "/16.8e654ad7d82140fdcf3a.chunk.js",
-    "e5a85f959db090d43f842c3719dbd7fb70ab1f07": "/"
+    "ed1bd183da1525f594bf16abd474cc39ecd184d2": "/"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "1/1/2021, 9:24:32 AM",
+  "version": "1/1/2021, 10:04:56 AM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": false
