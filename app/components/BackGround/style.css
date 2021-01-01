@@ -8,6 +8,11 @@
 }
 
 .bgTitle{
-    text-align: right;
+    text-align: left;
     color: white;
+    margin-bottom: 40%;
+}
+.carousel-caption{
+    position: static;
+    margin-top: 10%;
 }
