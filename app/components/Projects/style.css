@@ -31,7 +31,7 @@
 }
 @media only screen and (max-width: 600px) {
     .projects{
-        height: inherit;
+        height: 100vh;
         background-color: rgb(3, 5, 43);
         color: white; 
         text-align: right;
@@ -39,7 +39,7 @@
   }
 @media only screen and (max-width: 500px) {
     .projects{
-        height: inherit;
+        height: 100vh;
         background-color: rgb(3, 6, 49);
         color: white; 
         text-align: right;
@@ -47,7 +47,7 @@
   }
 @media only screen and (max-width: 400px) {
     .projects{
-        height: inherit;
+        height: 100vh;
         background-color: rgb(8, 6, 32);
         color: white; 
         text-align: right;
