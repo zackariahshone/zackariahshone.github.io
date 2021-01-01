@@ -30,7 +30,7 @@ function Projects() {
             </Parallax>
           </Col>
           <Col>
-            <Parallax y={[200, 350]}>
+            <Parallax y={[200, 300]}>
               <div className="boxTwo" />
             </Parallax>
           </Col>
