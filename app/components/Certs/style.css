@@ -9,12 +9,13 @@
 
  */
 .Certs{
-    height: 100vh;
+    height:inherit;
     background-color: rgb(3, 6, 49);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Inconsolata', monospace;
     color: white;
+    z-index: 0;
 }
 .certsContainer{
     padding-top: 10%;
@@ -27,4 +28,6 @@
 }
 .card{
     margin-bottom: 10%;
+    color: black;
+    background-color: gray;
 }

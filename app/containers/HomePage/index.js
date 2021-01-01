@@ -9,16 +9,18 @@ import React from 'react';
 import HomeSection from '../../components/Homesection';
 import Certs from '../../components/Certs';
 import Background from '../../components/BackGround';
-import WhoToBe from '../../components/WhoToBe';
+import Projects from '../../components/Projects';
 import Nav from '../../components/NavScroll';
+import Contact from '../../components/Contact';
 export default function HomePage() {
   return (
     <div>
       <Nav />
       <HomeSection />
       <Background />
-      <WhoToBe />
+      <Projects />
       <Certs />
+      <Contact />
     </div>
   );
 }

@@ -11,11 +11,11 @@
       
 }
 .titleBox{
-    background-image: url('../../images/name_container.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url('../../images/name_container.png'); */
+   
+    border-radius: 5px;
     border-color: white;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
     width:50%;
     position: absolute;
