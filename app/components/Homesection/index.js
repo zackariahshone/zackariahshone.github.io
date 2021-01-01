@@ -39,7 +39,9 @@ function Homesection() {
                 technologies and front end interfaces
               </h3>
             </div>
-            <div className="desc-right" />
+            <div className="desc-right">
+              <h3> Lets go on a journey together</h3>
+            </div>
           </div>
         </Row>
       </Container>

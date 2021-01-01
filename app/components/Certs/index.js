@@ -30,7 +30,7 @@ function Certs() {
 
       <Container className="certsContainer">
         <Row>
-          <Col>
+          <Col xs={12} md={6}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={Cert1} />
             </Card>
@@ -54,7 +54,7 @@ function Certs() {
         </Row>
 
         <Row>
-          <Col>
+          <Col xs={12} md={6}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={Cert2} />
             </Card>
