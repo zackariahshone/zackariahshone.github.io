@@ -7,6 +7,7 @@
 import React from 'react';
 // import { Parallax } from 'react-scroll-parallax';
 import { Container, Row } from 'react-bootstrap';
+import Typical from 'react-typical';
 // import Start from '../../images/shootingStar.jpg';
 // import nameBox from '../../images/name_container.png';
 import './style.css';
@@ -19,8 +20,25 @@ function Homesection() {
       <div className="titleBox">
         <div className="title">
           <h1>Zackariah Shone</h1>
+          <h3>
+            <Typical
+              steps={[
+                'Im a full stack dev',
+                1000,
+                'from back',
+                500,
+                'to front',
+                500,
+                'lets enjoy technology!',
+                1000,
+              ]}
+              loop={Infinity}
+              wrapper="p"
+            />
+          </h3>
         </div>
       </div>
+      <div />
       <Container>
         <Row>
           <div className="desc-container">
@@ -39,9 +57,7 @@ function Homesection() {
                 technologies and front end interfaces
               </h3>
             </div>
-            <div className="desc-right">
-              <h3> Lets go on a journey together</h3>
-            </div>
+            <div className="desc-right" />
           </div>
         </Row>
       </Container>
