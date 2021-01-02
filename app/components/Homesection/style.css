@@ -44,11 +44,14 @@
     height: auto;
     /* border-style: solid; */
     /* border-color: white; */
-    width: 80%;
+    padding-top: 10%;
     position: absolute;
     left: 2%;
     bottom: 10px;
 
+}
+.info-box{
+    margin: 10%;
 }
 .desc-left{
     text-align: left;
