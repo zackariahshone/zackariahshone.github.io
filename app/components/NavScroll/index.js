@@ -67,6 +67,18 @@ function NavScroll() {
                 <FontAwesomeIcon icon={faSquare} />
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section5"
+                spy
+                smooth
+                offset={0}
+                duration={1000}
+              >
+                <FontAwesomeIcon icon={faSquare} />
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
