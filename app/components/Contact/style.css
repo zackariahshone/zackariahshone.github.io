@@ -16,8 +16,9 @@
     position: absolute;
     left: 30%;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .contact{
+        height: inherit;
         background-color: rgb(0, 0, 0);
     }    
     

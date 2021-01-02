@@ -67,9 +67,9 @@
         border-width: 2px;
         border-style: solid;
         width:100%;
-        position: absolute;
+        position: relative;
         left: 0px;
-        top: 50px;
+        top: 10px;
     }
     h1{
         font-size: 25px;
